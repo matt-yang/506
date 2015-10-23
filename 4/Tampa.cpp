@@ -14,8 +14,6 @@
 
 #include "goldfis.h"
 
-hi there;
-
 using namespace std;
 
 
@@ -127,51 +125,6 @@ cout << "\t" << pat[i].age << "\t" << pat[i].year << endl;
 
 }
 }
-
-/*
-void save (int *pnum, record *pat){
-file << "[Show Patients]" << endl;
-file << "ID\tName\tSex\tBlood\tOrgan\tAge\tWaiting Since" << endl;
-file << "===================================================================" << endl;
-for (int i=1; i<=*pnum; i++){
-file << i << "\t" << pat[i].lname << "," << pat[i].fname[0] << "\t";
-
-//computing char types to display gender type
-if (pat[i].sex == 0){
-file << "M";
-} else {
-	file << "F";
-}
-
-//computing string type to display blood types
-if (pat[i].blood == 0){
-	file << "\tA";
-} else if (pat[i].blood == 1){
-	file << "\tAB";
-
-}else if (pat[i].blood == 2){
-	file << "\tO";
-}else if (pat[i].blood == 3){
-	file << "\tB";
-}
-
-//computing string type to display organ type
-if (pat[i].organ == 0){
-	file << "\tHeart";
-} else if (pat[i].organ == 1){
-	file << "\tKidney";
-
-}else if (pat[i].organ == 2){
-	file << "\tLung";
-}else if (pat[i].organ == 3){
-	file << "\tLiver";
-}
-
-file << "\t" << pat[i].age << "\t" << pat[i].year << endl;
-
-}
-}
-*/
 
 //function to end the program
 int quit (){

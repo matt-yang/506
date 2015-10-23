@@ -17,9 +17,17 @@
 
 using namespace std;
 
-//Testing
 int main() {
-
+	ifstream file ("list.txt");
+	  if (file.is_open())
+	  {
+	    while (getline (file,record))
+	    {
+	    	for (int i=0;i!=!file;i++)
+	      cin >> pat[i];
+	    };
+	    file.close();
+	  }
 int pnum = 0;
 int user1;
 record pat[100];
