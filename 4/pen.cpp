@@ -17,7 +17,7 @@
 
 using namespace std;
 
-hi there;
+
 int main() {
 
 int pnum = 0;
