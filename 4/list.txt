@@ -1,0 +1,4 @@
+1 - number of patients[Show Patients]
+ID	Name	Sex	Blood	Organ	Age	Waiting Since
+===================================================================
+1	Smith,A	M	AB	Heart	24	1565
