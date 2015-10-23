@@ -17,7 +17,7 @@
 
 using namespace std;
 
-
+//Testing
 int main() {
 
 int pnum = 0;
@@ -50,7 +50,7 @@ break;
 case 2:
 show(&pnum, pat); //Displays the patient list
 break;
-case 3:
+case 3: //Saves patient list to a txt file
 {{
 	{
 	ofstream(file);
